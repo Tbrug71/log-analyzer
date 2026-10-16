@@ -1,0 +1,34 @@
+Oct 14 02:41:17 web-01 sshd[2300]: Accepted publickey for bob from 192.0.2.25 port 55011 ssh2
+Oct 14 02:41:17 web-01 sshd[2300]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Oct 14 03:12:08 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41021 ssh2
+Oct 14 03:12:11 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41022 ssh2
+Oct 14 03:12:15 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41023 ssh2
+Oct 14 03:12:19 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41024 ssh2
+Oct 14 03:12:24 web-01 sshd[2331]: Failed password for invalid user admin from 203.0.113.45 port 41025 ssh2
+Oct 14 03:12:28 web-01 sshd[2331]: Failed password for invalid user admin from 203.0.113.45 port 41026 ssh2
+Oct 14 03:12:33 web-01 sshd[2331]: Failed password for invalid user admin from 203.0.113.45 port 41027 ssh2
+Oct 14 03:12:37 web-01 sshd[2331]: Failed password for deploy from 203.0.113.45 port 41028 ssh2
+Oct 14 03:12:41 web-01 sshd[2331]: Failed password for deploy from 203.0.113.45 port 41029 ssh2
+Oct 14 03:12:46 web-01 sshd[2331]: Failed password for deploy from 203.0.113.45 port 41030 ssh2
+Oct 14 03:12:52 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41031 ssh2
+Oct 14 03:12:58 web-01 sshd[2331]: Failed password for root from 203.0.113.45 port 41032 ssh2
+Oct 14 03:13:41 web-01 sshd[2331]: Accepted password for deploy from 203.0.113.45 port 41033 ssh2
+Oct 14 03:13:41 web-01 sshd[2331]: pam_unix(sshd:session): session opened for user deploy by (uid=0)
+Oct 14 06:10:12 web-01 sshd[2388]: Failed password for carol from 198.51.100.200 port 33101 ssh2
+Oct 14 09:02:11 web-01 sshd[2401]: Accepted publickey for alice from 192.0.2.10 port 50122 ssh2
+Oct 14 09:02:11 web-01 sshd[2401]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Oct 14 09:15:40 web-01 sshd[2440]: Failed password for alice from 192.0.2.10 port 50210 ssh2
+Oct 14 09:15:48 web-01 sshd[2440]: Accepted password for alice from 192.0.2.10 port 50210 ssh2
+Oct 14 11:30:02 web-01 sshd[2503]: Accepted publickey for carol from 192.0.2.44 port 61002 ssh2
+Oct 14 11:58:19 web-01 sshd[2503]: Received disconnect from 192.0.2.44 port 61002:11: disconnected by user
+Oct 14 12:45:30 web-01 sshd[2561]: Failed password for carol from 198.51.100.200 port 33177 ssh2
+Oct 14 14:20:03 web-01 sshd[2610]: Failed password for invalid user test from 198.51.100.77 port 52301 ssh2
+Oct 14 14:20:09 web-01 sshd[2610]: Failed password for invalid user oracle from 198.51.100.77 port 52302 ssh2
+Oct 14 14:20:15 web-01 sshd[2610]: Failed password for invalid user ubuntu from 198.51.100.77 port 52303 ssh2
+Oct 14 14:20:21 web-01 sshd[2610]: Failed password for invalid user postgres from 198.51.100.77 port 52304 ssh2
+Oct 14 14:20:27 web-01 sshd[2610]: Failed password for invalid user guest from 198.51.100.77 port 52305 ssh2
+Oct 14 14:20:33 web-01 sshd[2610]: Failed password for invalid user ftpuser from 198.51.100.77 port 52306 ssh2
+Oct 14 14:20:39 web-01 sshd[2610]: Failed password for invalid user admin from 198.51.100.77 port 52307 ssh2
+Oct 14 16:05:22 web-01 sshd[2655]: Accepted publickey for root from 192.0.2.30 port 40222 ssh2
+Oct 14 16:05:22 web-01 sshd[2655]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Oct 14 19:20:11 web-01 sshd[2702]: Failed password for carol from 198.51.100.200 port 33290 ssh2
