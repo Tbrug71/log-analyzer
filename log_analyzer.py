@@ -26,8 +26,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # Syslog line: "Oct 14 03:12:08 web-01 sshd[2211]: <message>"
+# OpenSSH 9.8+ logs login handling as "sshd-session[...]", so accept both.
 LINE_RE = re.compile(
-    r"^(?P<ts>[A-Z][a-z]{2}\s+\d{1,2}\s\d{2}:\d{2}:\d{2})\s+(?P<host>\S+)\s+sshd\[\d+\]:\s+(?P<msg>.*)$"
+    r"^(?P<ts>[A-Z][a-z]{2}\s+\d{1,2}\s\d{2}:\d{2}:\d{2})\s+(?P<host>\S+)\s+sshd(?:-session)?\[\d+\]:\s+(?P<msg>.*)$"
 )
 FAILED_RE = re.compile(
     r"Failed password for (?P<invalid>invalid user )?(?P<user>\S+) from (?P<ip>\S+) port \d+"
